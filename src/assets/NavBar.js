@@ -3,13 +3,27 @@ const NavBar = () => {
   return (
     <nav className="nav-container">
       <div className="nav-element">
-        <a className="nav-link" href="#about">About Me</a>
+        <a className="nav-link" href="#about">
+          About Me
+        </a>
       </div>
       <div className="nav-element">
-        <a className="nav-link" href="#projects">Projects</a>
+        <a className="nav-link" href="#projects">
+          Projects
+        </a>
       </div>
       <div className="nav-element">
-        <a className="nav-link" href="#contact">Contact</a>
+        <a
+          className="nav-link"
+          href="https://drive.google.com/file/d/1X4nZawkMt91jERICN8S5RRNucoY2jq97/view?usp=sharing"
+        >
+          Resume
+        </a>
+      </div>
+      <div className="nav-element">
+        <a className="nav-link" href="#contact">
+          Contact
+        </a>
         <ul className="contact-list">
           <li>
             <a
