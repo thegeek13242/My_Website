@@ -1,4 +1,8 @@
 import "./NavBar.css";
+import github from "./GitHub-Mark-Light-32px.png";
+import linkedin from "./linkedin.png";
+import medium from "./Medium.png";
+
 const NavBar = () => {
   return (
     <nav className="nav-container">
@@ -21,29 +25,19 @@ const NavBar = () => {
         </a>
       </div>
       <div className="nav-element">
-        <a className="nav-link" href="#contact">
-          Contact
-        </a>
-        <ul className="contact-list">
-          <li>
-            <a
-              href="https://github.com/thegeek13242"
-              rel="noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/aviral-verma-19b9b4201/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              LinkedIn
-            </a>
-          </li>
-        </ul>
+      <a href="https://github.com/thegeek13242">
+        <img className="github" src={github} alt="github logo" />
+      </a>
+      </div>
+      <div className="nav-element">
+      <a href="https://www.linkedin.com/in/aviral-verma-19b9b4201/">
+        <img className="linkedin" src={linkedin} alt="linkedin logo" width="32px" height="32px"/>
+      </a>
+      </div>
+      <div className="nav-element">
+      <a href="https://medium.com/@aviralv35">
+        <img className="medium" src={medium} alt="medium logo" width="32px" height="32px"/>
+      </a>
       </div>
     </nav>
   );
