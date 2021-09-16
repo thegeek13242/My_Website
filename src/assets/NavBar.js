@@ -25,19 +25,31 @@ const NavBar = () => {
         </a>
       </div>
       <div className="nav-element">
-      <a href="https://github.com/thegeek13242">
-        <img className="github" src={github} alt="github logo" />
-      </a>
+        <a href="https://github.com/thegeek13242">
+          <img className="github" src={github} alt="github logo" />
+        </a>
       </div>
       <div className="nav-element">
-      <a href="https://www.linkedin.com/in/aviral-verma-19b9b4201/">
-        <img className="linkedin" src={linkedin} alt="linkedin logo" width="32px" height="32px"/>
-      </a>
+        <a href="https://www.linkedin.com/in/aviral-verma-19b9b4201/">
+          <img
+            className="linkedin"
+            src={linkedin}
+            alt="linkedin logo"
+            width="32px"
+            height="32px"
+          />
+        </a>
       </div>
       <div className="nav-element">
-      <a href="https://medium.com/@aviralv35">
-        <img className="medium" src={medium} alt="medium logo" width="32px" height="32px"/>
-      </a>
+        <a href="https://medium.com/@aviralv35">
+          <img
+            className="medium"
+            src={medium}
+            alt="medium logo"
+            width="32px"
+            height="32px"
+          />
+        </a>
       </div>
     </nav>
   );
